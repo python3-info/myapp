@@ -1,0 +1,92 @@
+# SonarScanner i jego konfiguracja
+
+**SonarScanner** to narzędzie wiersza poleceń używane do analizy kodu
+źródłowego projektu i wysyłania wyników do serwera SonarQube. To podstawowy
+mechanizm analizy projektu w procesach Continuous Integration (CI) oraz
+podczas lokalnych buildów. SonarScanner najczęściej integruje się z
+narzędziami buildowymi takimi jak Maven, Gradle albo uruchamia bezpośrednio
+z CLI.
+
+## 1. Czym jest SonarScanner?
+
+SonarScanner to oficjalny skaner służący do wysyłania wyników analizy do
+instancji SonarQube. Odczytuje kod źródłowy, stosuje reguły jakości i
+raportuje bugs, vulnerabilities, code smells i inne metryki jakości.
+Może być używany dla różnych technologii, m.in. Java, C#, Python,
+JavaScript i wielu innych.
+
+## 2. Typy SonarScannera
+
+- **SonarScanner for Maven**: integracja dla projektów Maven;
+  uruchamia analizę w cyklu życia Mavena.
+- **SonarScanner for Gradle**: analogiczna integracja dla projektów Gradle.
+- **SonarScanner CLI**: samodzielna wersja uruchamiana ręcznie z linii poleceń.
+
+## 3. Konfiguracja SonarScannera
+
+- **sonar-project.properties**: kluczowy plik konfiguracyjny SonarScannera
+  z informacjami o projekcie, np. klucz, nazwa i URL serwera SonarQube.
+- **Zmienne środowiskowe**: część właściwości można ustawić przez zmienne,
+  np. `SONAR_HOST_URL`.
+- **Parametry CLI**: podczas uruchamiania można przekazywać właściwości
+  także bezpośrednio przez flagi.
+
+## 4. Typowe właściwości konfiguracyjne
+
+- `sonar.projectKey`: unikalny identyfikator projektu.
+- `sonar.projectName`: nazwa projektu.
+- `sonar.projectVersion`: wersja projektu.
+- `sonar.sources`: katalog ze źródłami do analizy.
+- `sonar.host.url`: adres serwera SonarQube (np. `http://localhost:9000`).
+
+## 5. Uruchamianie SonarScannera
+
+- **Maven**: `mvn sonar:sonar`
+- **Gradle**: `gradle sonarqube`
+- **CLI**: `sonar-scanner`
+
+Skaner przeanalizuje projekt i wyśle wyniki do skonfigurowanego serwera SonarQube.
+
+---
+
+## Ćwiczenia
+
+### Ćwiczenie 1: Instalacja i konfiguracja SonarScannera
+
+**Cel:**  
+Naucz się instalować i konfigurować SonarScanner dla projektu.
+
+**Zadania:**
+1. Zainstaluj **SonarScanner** lokalnie.
+2. Utwórz plik `sonar-project.properties` w katalogu przykładowego projektu.
+3. Ustaw właściwości takie jak `sonar.projectKey`, `sonar.projectName`
+   i `sonar.sources`.
+4. Uruchom SonarScanner odpowiednią komendą dla swojego środowiska
+   (np. `sonar-scanner` dla CLI).
+
+---
+
+### Ćwiczenie 2: Uruchomienie SonarScannera w pipeline CI/CD
+
+**Cel:**  
+Zintegruj SonarScanner z pipeline CI/CD.
+
+**Zadania:**
+1. Dodaj **SonarScanner** do prostego pipeline’u CI, np. w **Jenkins**,
+   **GitLab CI** albo **GitHub Actions**.
+2. Ustaw w konfiguracji pipeline’u URL serwera SonarQube oraz token.
+3. Uruchom build i zweryfikuj, że projekt jest analizowany, a wyniki
+   trafiają do SonarQube.
+
+---
+
+### Ćwiczenie 3: Diagnostyka i korekta konfiguracji
+
+**Cel:**  
+Poćwicz diagnozowanie problemów i dostrajanie konfiguracji SonarScannera.
+
+**Zadania:**
+1. Zmodyfikuj `sonar-project.properties`, dodając ustawienia dodatkowe,
+   np. wykluczenia lub konkretne reguły.
+2. Uruchom skaner i sprawdź logi pod kątem błędów lub złej konfiguracji.
+3. Skoryguj ustawienia i uruchom skaner ponownie, aż analiza zakończy się poprawnie.
