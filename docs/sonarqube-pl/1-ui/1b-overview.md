@@ -61,7 +61,13 @@ Poznaj układ strony i najważniejsze informacje na stronie Project Overview.
 
 **Zadania:**
 1. Otwórz stronę **Project Overview** dla wybranego projektu.
-2. Zidentyfikuj **kluczowe metryki** (bugs, vulnerabilities, test coverage).
+2. Zidentyfikuj **kluczowe metryki**:
+   - **Security**
+   - **Reliability**
+   - **Maintainability**
+   - **Hotspots Reviewed**
+   - **Coverage**
+   - **Duplications**
 3. Sprawdź, czy projekt zaliczył, czy nie zaliczył **Quality Gate**.
 
 ---

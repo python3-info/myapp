@@ -78,13 +78,13 @@ Zapoznaj się z głównym dashboardem i jego funkcjami.
 **Zadanie:**
 1. Otwórz instancję SonarQube.
 2. Przejrzyj **Project List Page**.
-3. Dla każdego projektu znajdź i zanotuj:
+3. Dla projektu znajdź następujące informacje:
    - **Project Name**
    - **Quality Gate Status** (np. Passed/Failed)
    - **Last Analysis Date**
 4. Spróbuj sortować listę projektów po:
    - Last Analysis Date
-   - Quality Gate Status
+   - Name
 
 ---
 
@@ -94,11 +94,9 @@ Zapoznaj się z głównym dashboardem i jego funkcjami.
 Naucz się interpretować status quality gate dla projektów.
 
 **Zadanie:**
-1. Na **Project List Page** sprawdź kolumnę **Quality Gate Status**.
-2. Zidentyfikuj projekty, które zaliczyły i nie zaliczyły quality gate.
+1. Na **Project List Page** sprawdź status **Quality Gate** dla projektu.
+2. W menu filters po prawej, przefiltruj projekty, które zaliczyły i nie zaliczyły quality gate.
 3. Przefiltruj projekty tak, aby pokazać tylko te, które **nie zaliczyły** quality gate.
-4. Zwróć uwagę na wzorce w projektach, które nie przechodzą quality gate.
-   Czy wynika to z błędów, podatności czy code smells?
 
 ---
 
@@ -108,7 +106,7 @@ Naucz się interpretować status quality gate dla projektów.
 Zrozum kluczowe metryki wyświetlane dla każdego projektu na głównym dashboardzie.
 
 **Zadanie:**
-1. Przejrzyj sekcję **Metrics** widoczną na **Project List Page**.
+1. Przejrzyj sekcję **Filters** widoczną po lewej na **Project List Page**.
 2. Dla co najmniej pięciu projektów zidentyfikuj:
    - **Code Smells**
    - **Bugs**
