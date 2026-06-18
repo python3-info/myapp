@@ -121,6 +121,6 @@ Create a custom rule profile for a project.
 
 **Tasks**:
 1. Go to the **Quality Profiles** section in the **Administration** menu.
-2. Create a new profile or modify an existing one.
+2. Create a new profile "My way" extending "Sonar way".
 3. Add or remove specific rules to tailor the profile to your project's needs.
 4. Apply the custom rule profile to a project and analyze the results.

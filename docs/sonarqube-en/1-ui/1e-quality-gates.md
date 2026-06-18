@@ -75,7 +75,7 @@ Learn how to modify the conditions of a Quality Gate.
 **Tasks**:
 1. Navigate to the **Quality Gates** section in the **Administration** menu.
 2. Edit the default quality gate and modify a condition 
-   (change the required test coverage percentage to 85%). 
+   (fail, if there are more than one blocker issues). 
 3. Apply the new quality gate to a specific project.
 
 ---

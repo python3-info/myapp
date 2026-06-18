@@ -72,8 +72,7 @@ Naucz się instalować i konfigurować SonarScanner dla projektu.
 Zintegruj SonarScanner z pipeline CI/CD.
 
 **Zadania:**
-1. Dodaj **SonarScanner** do prostego pipeline’u CI, np. w **Jenkins**,
-   **GitLab CI** albo **GitHub Actions**.
+1. Dodaj **SonarScanner** do prostego pipeline’u CI w **Jenkins**
 2. Ustaw w konfiguracji pipeline’u URL serwera SonarQube oraz token.
 3. Uruchom build i zweryfikuj, że projekt jest analizowany, a wyniki
    trafiają do SonarQube.
