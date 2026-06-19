@@ -6,7 +6,7 @@ Skuteczne zarządzanie użytkownikami zapewnia, że właściwe osoby mają
 odpowiedni dostęp do projektów, issue i konfiguracji, co pomaga
 utrzymywać bezpieczeństwo i kontrolę nad procesem wytwarzania.
 
-## 1. Użytkownicy
+## Użytkownicy
 
 Użytkownicy w SonarQube reprezentują konkretne osoby mające dostęp do
 systemu. Konta mogą być tworzone ręcznie lub przez integrację z
@@ -18,7 +18,7 @@ zewnętrznymi systemami uwierzytelniania (np. LDAP, SSO).
   do ustawień systemowych.
 - **Guest Users**: zwykle mają dostęp tylko do odczytu.
 
-## 2. Grupy
+## Grupy
 
 Grupy w SonarQube służą do organizowania użytkowników, najczęściej według
 ról w procesie developmentu. Dzięki grupom administratorzy mogą łatwo
@@ -30,7 +30,7 @@ zarządzać uprawnieniami wielu użytkowników naraz.
 - **Custom Groups**: można tworzyć grupy własne dla konkretnych zespołów
   (np. frontend, backend, security) i poziomów dostępu.
 
-## 3. Role i uprawnienia
+## Role i uprawnienia
 
 Role definiują, jakie działania użytkownicy i grupy mogą wykonywać w
 SonarQube. Uprawnienia mogą być nadawane globalnie albo na poziomie projektu.
@@ -40,21 +40,21 @@ SonarQube. Uprawnienia mogą być nadawane globalnie albo na poziomie projektu.
 - **Project Permissions**: obejmują uprawnienia dla konkretnego projektu,
   np. podgląd dashboardu, zarządzanie konfiguracją projektu i uruchamianie analiz.
 
-## 4. Uwierzytelnianie i autoryzacja
+## Uwierzytelnianie i autoryzacja
 
 SonarQube wspiera zarówno **internal authentication** (konta przechowywane
 w SonarQube), jak i **external authentication** (integracje z LDAP,
 Active Directory lub SSO). Zewnętrzne uwierzytelnianie ułatwia centralne
 zarządzanie użytkownikami, szczególnie w większych organizacjach.
 
-## 5. Interfejs zarządzania użytkownikami i grupami
+## Interfejs zarządzania użytkownikami i grupami
 
 Administratorzy mogą zarządzać użytkownikami i grupami w menu
 **Administration > Security > Users** oraz
 **Administration > Security > Groups**. Z tego poziomu można tworzyć,
 edytować i usuwać użytkowników, przypisywać ich do grup oraz nadawać role.
 
-## 6. Audit Logs
+## Audit Logs
 
 SonarQube udostępnia także audit logs, które śledzą działania użytkowników,
 np. próby logowania, zmiany konfiguracji i modyfikacje uprawnień.

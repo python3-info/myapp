@@ -9,7 +9,7 @@ ponieważ ustawia progi dla najważniejszych metryk. Jeśli kod nie spełni
 wymagań quality gate, analiza może zakończyć się niepowodzeniem, blokując
 merge lub wdrożenie słabego jakościowo kodu.
 
-## 1. Analiza statyczna
+## Analiza statyczna
 
 Analiza statyczna w SonarQube bada kod źródłowy projektu bez jego uruchamiania.
 Opiera się na:
@@ -27,7 +27,7 @@ Wyniki są kategoryzowane jako:
 - **Code Smells**: praktyki, które nie muszą być błędne, ale można je poprawić.
 - **Duplications**: powielone fragmenty kodu wpływające na utrzymywalność.
 
-## 2. Quality Gates
+## Quality Gates
 
 **Quality gate** to zestaw warunków, które projekt musi spełnić, aby został
 uznany za gotowy do integracji lub wdrożenia. Pozwala egzekwować konkretne
@@ -46,7 +46,7 @@ Typowe warunki quality gate:
 Jeśli projekt nie spełni warunków quality gate, analiza kończy się statusem
 failed, a build w CI/CD zostaje oznaczony jako nieudany.
 
-## 3. Domyślna Quality Gate
+## Domyślna Quality Gate
 
 - Brak nowych issue critical.
 - Brak nowych issue blocker.
@@ -55,7 +55,7 @@ failed, a build w CI/CD zostaje oznaczony jako nieudany.
 
 Warunki te zapewniają bazowy poziom jakości dla każdego analizowanego projektu.
 
-## 4. Niestandardowe Quality Gates
+## Niestandardowe Quality Gates
 
 Administratorzy mogą tworzyć własne quality gates z progami m.in. dla:
 

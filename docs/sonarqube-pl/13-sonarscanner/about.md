@@ -7,7 +7,7 @@ podczas lokalnych buildów. SonarScanner najczęściej integruje się z
 narzędziami buildowymi takimi jak Maven, Gradle albo uruchamia bezpośrednio
 z CLI.
 
-## 1. Czym jest SonarScanner?
+## Czym jest SonarScanner?
 
 SonarScanner to oficjalny skaner służący do wysyłania wyników analizy do
 instancji SonarQube. Odczytuje kod źródłowy, stosuje reguły jakości i
@@ -15,14 +15,14 @@ raportuje bugs, vulnerabilities, code smells i inne metryki jakości.
 Może być używany dla różnych technologii, m.in. Java, C#, Python,
 JavaScript i wielu innych.
 
-## 2. Typy SonarScannera
+## Typy SonarScannera
 
 - **SonarScanner for Maven**: integracja dla projektów Maven;
   uruchamia analizę w cyklu życia Mavena.
 - **SonarScanner for Gradle**: analogiczna integracja dla projektów Gradle.
 - **SonarScanner CLI**: samodzielna wersja uruchamiana ręcznie z linii poleceń.
 
-## 3. Konfiguracja SonarScannera
+## Konfiguracja SonarScannera
 
 - **sonar-project.properties**: kluczowy plik konfiguracyjny SonarScannera
   z informacjami o projekcie, np. klucz, nazwa i URL serwera SonarQube.
@@ -31,7 +31,7 @@ JavaScript i wielu innych.
 - **Parametry CLI**: podczas uruchamiania można przekazywać właściwości
   także bezpośrednio przez flagi.
 
-## 4. Typowe właściwości konfiguracyjne
+## Typowe właściwości konfiguracyjne
 
 - `sonar.projectKey`: unikalny identyfikator projektu.
 - `sonar.projectName`: nazwa projektu.
@@ -39,7 +39,7 @@ JavaScript i wielu innych.
 - `sonar.sources`: katalog ze źródłami do analizy.
 - `sonar.host.url`: adres serwera SonarQube (np. `http://localhost:9000`).
 
-## 5. Uruchamianie SonarScannera
+## Uruchamianie SonarScannera
 
 - **Maven**: `mvn sonar:sonar`
 - **Gradle**: `gradle sonarqube`

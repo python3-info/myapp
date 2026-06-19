@@ -1,24 +1,24 @@
 # Agenda
 
 1. Interfejs SonarQube
-- koncepcja projektu
-- strona przeglądu projektu
-- metryki jakości
-- issue i ich właściwości
-- quality gates
-- reguły
-- praca z false positives
-- głębsze SAST
+- Koncepcja projektu
+- Strona przeglądu projektu
+- Metryki jakości
+- Issue i ich właściwości
+- Quality gates
+- Reguły
+- Hotspots
+- Static application security testing (SAST)
 
 2. Administracja SonarQube
-- zarządzanie użytkownikami
-- tokeny do statycznej analizy kodu
-- zarządzanie grupami
-- uprawnienia projektowe
+- Zarządzanie użytkownikami
+- Tokeny do statycznej analizy kodu
+- Zarządzanie grupami
+- Uprawnienia projektowe
 
 3. Integracja CI/CD
 - SonarScanner i jego konfiguracja
-- analiza statyczna
-- dodatkowe narzędzia (bandit, pylint, coverage, mypy itd.)
-- clean as you code (pull request)
-- integracja AI
+- Analiza statyczna
+- Dodatkowe narzędzia (bandit, pylint, coverage, mypy itd.)
+- Clean as you code (pull request)
+- Integracja AI

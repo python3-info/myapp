@@ -5,7 +5,7 @@ projektu. Mogą obejmować błędy, podatności, code smells i inne zagadnienia
 związane z utrzymywalnością. Issue są kategoryzowane według typu, wagi i
 lokalizacji w kodzie, co ułatwia ich priorytetyzację i naprawę.
 
-## 1. Bugs
+## Bugs
 
 - **Definicja**: bugs to problemy, które mogą prowadzić do błędów wykonania
   albo nieoczekiwanego zachowania aplikacji.
@@ -13,7 +13,7 @@ lokalizacji w kodzie, co ułatwia ich priorytetyzację i naprawę.
 - **Waga**: bugs mogą być klasyfikowane jako Blocker, Critical, Major, Minor
   albo Info — zależnie od wpływu.
 
-## 2. Vulnerabilities
+## Vulnerabilities
 
 - **Definicja**: vulnerabilities to problemy bezpieczeństwa, które mogą
   narażać aplikację na ataki, np. SQL injection, Cross-Site Scripting (XSS)
@@ -22,7 +22,7 @@ lokalizacji w kodzie, co ułatwia ich priorytetyzację i naprawę.
   lub nieautoryzowany dostęp.
 - **Waga**: podobnie jak bugs, są klasyfikowane jako Blocker, Critical, Major, Minor, Info.
 
-## 3. Code Smells
+## Code Smells
 
 - **Definicja**: code smells to problemy utrzymywalności, które nie muszą
   wpływać na działanie aplikacji, ale utrudniają zrozumienie i rozwój kodu.
@@ -30,7 +30,7 @@ lokalizacji w kodzie, co ułatwia ich priorytetyzację i naprawę.
 - **Wpływ**: code smells zwiększają dług techniczny i utrudniają utrzymanie
   projektu w dłuższej perspektywie.
 
-## 4. Duplications
+## Duplications
 
 - **Definicja**: duplicated code to identyczne lub podobne fragmenty kodu
   powielone w wielu miejscach.
@@ -41,7 +41,7 @@ lokalizacji w kodzie, co ułatwia ich priorytetyzację i naprawę.
 
 ## Właściwości issue
 
-### 1. Severity
+### Severity
 
 - **Blocker**: krytyczne problemy wymagające natychmiastowej reakcji.
 - **Critical**: problemy o wysokiej wadze, które trzeba szybko rozwiązać.
@@ -49,31 +49,31 @@ lokalizacji w kodzie, co ułatwia ich priorytetyzację i naprawę.
 - **Minor**: problemy o mniejszym wpływie, ale warte rozwiązania.
 - **Info**: niskoprioritytowe kwestie, często kosmetyczne.
 
-### 2. Type
+### Type
 
 - **Bug**: defekt, który może powodować błąd lub nieoczekiwane zachowanie.
 - **Vulnerability**: problem bezpieczeństwa narażający projekt na ryzyko.
 - **Code Smell**: problem utrzymywalności sugerujący słabe praktyki kodowania.
 - **Duplicated Code**: powtórzony kod, który warto zrefaktoryzować.
 
-### 3. Status
+### Status
 
 - **Open**: issue zostało wykryte, ale jeszcze nie rozwiązane.
 - **Fixed**: issue zostało rozwiązane i nie występuje już w kodzie.
 - **Won't Fix**: issue przejrzane i uznane za nieistotne lub nienaprawialne.
 - **Reopened**: issue wcześniej zamknięte, które pojawiło się ponownie po zmianie kodu.
 
-### 4. Assignee
+### Assignee
 
 Issue mogą być przypisywane do konkretnego dewelopera lub zespołu
 odpowiedzialnego za ich naprawę.
 
-### 5. Location
+### Location
 
 - **File**: plik, w którym wykryto issue.
 - **Line Number**: konkretna linia, w której problem występuje.
 
-### 6. Tags
+### Tags
 
 Tagi pomagają kategoryzować issue i ułatwiają grupowanie oraz filtrowanie.
 Przykładowe tagi: "security", "refactoring", "test".

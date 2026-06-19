@@ -56,7 +56,7 @@ Przykłady:
 
 ## Właściwości reguł
 
-### 1. Severity
+### Severity
 
 - **Blocker**: krytyczne problemy wymagające natychmiastowej naprawy.
 - **Critical**: problemy wysokiego priorytetu wymagające szybkiej reakcji.
@@ -64,13 +64,13 @@ Przykłady:
 - **Minor**: problemy niskiego priorytetu.
 - **Info**: niekrytyczne sugestie i usprawnienia.
 
-### 2. Status
+### Status
 
 - **Active**: reguła jest stosowana podczas analizy kodu.
 - **Inactive**: reguła nie jest obecnie stosowana (wyłączona lub zmieniona).
 - **Deprecated**: reguła jest przestarzała i niezalecana.
 
-### 3. Kategorie
+### Kategorie
 
 - **Bug**
 - **Vulnerability**
@@ -78,7 +78,7 @@ Przykłady:
 - **Security**
 - **Best Practices**
 
-### 4. Tagi
+### Tagi
 
 Tagi służą do grupowania powiązanych reguł, co ułatwia filtrowanie i
 zarządzanie nimi.

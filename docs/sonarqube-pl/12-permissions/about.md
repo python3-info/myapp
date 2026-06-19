@@ -6,7 +6,7 @@ mogą wykonywać w platformie. Dzielą się na **uprawnienia globalne** i
 Dzięki poprawnemu zarządzaniu uprawnieniami administratorzy mogą zapewnić
 użytkownikom właściwy dostęp do konfiguracji, analiz i pracy z projektami.
 
-## 1. Uprawnienia globalne
+## Uprawnienia globalne
 
 Uprawnienia globalne dotyczą całej instancji SonarQube i nie są powiązane
 z pojedynczym projektem. Kontrolują dostęp do funkcji systemowych i
@@ -23,7 +23,7 @@ Przykładowe uprawnienia globalne:
 
 Te uprawnienia zwykle nadaje się **administratorom** lub **superuserom**.
 
-## 2. Uprawnienia projektowe
+## Uprawnienia projektowe
 
 Uprawnienia projektowe są bardziej szczegółowe i dotyczą wyłącznie
 konkretnego projektu. Określają, co użytkownicy i grupy mogą robić
@@ -42,7 +42,7 @@ Przykładowe uprawnienia projektowe:
 Uprawnienia projektowe pomagają precyzyjnie rozdzielać odpowiedzialności
 w zespole.
 
-## 3. Zarządzanie uprawnieniami
+## Zarządzanie uprawnieniami
 
 Uprawnienia można przypisywać bezpośrednio użytkownikom lub przez grupy.
 Przypisywanie grup upraszcza zarządzanie większą liczbą osób.
