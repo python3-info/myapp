@@ -84,8 +84,6 @@ Examples:
 Tags are used to group related rules together and can help in filtering and 
 organizing the rules for easier management. 
 
----
-
 ## Exercises
 
 ### Exercise 1: Explore Available Rules
@@ -100,8 +98,6 @@ Familiarize yourself with the rules in SonarQube.
 3. Review the descriptions of at least three rules and note their severity 
    levels. 
 
----
-
 ### Exercise 2: Activate/Deactivate a Rule
 
 **Objective**: 
@@ -111,8 +107,6 @@ Practice managing rules by activating or deactivating one.
 1. Go to the **Rules** section in SonarQube.
 2. Find a rule you would like to activate or deactivate.
 3. Change the status of the rule and note how it affects the quality analysis.
-
----
 
 ### Exercise 3: Create a Custom Rule Profile
 

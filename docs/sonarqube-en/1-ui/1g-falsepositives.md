@@ -48,8 +48,6 @@ with the general rule set. SonarQube allows the creation of **exceptions**
 for specific projects, which can help tailor the analysis to different team 
 needs.     
 
----
-
 ## Exercises
 
 ### Exercise 1: Mark an Issue as a False Positive
@@ -63,8 +61,6 @@ Learn how to mark an issue as a false positive.
 3. Mark the issue as **False Positive** and ensure it no longer appears in 
    future scans. 
 
----
-
 ### Exercise 2: Exclude a Rule for a Specific File
 
 **Objective**: 
@@ -76,8 +72,6 @@ Practice excluding a rule from specific files or sections of the project.
 3. Exclude this rule from being applied to certain files or classes.
 4. Run an analysis and confirm the rule is no longer applied to the 
    excluded files. 
-
----
 
 ### Exercise 3: Use a Suppression Comment to Ignore a False Positive
 

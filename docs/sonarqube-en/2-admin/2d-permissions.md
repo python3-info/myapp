@@ -57,8 +57,6 @@ Permissions are managed through the **Administration > Security >
 Permissions** section in SonarQube, where administrators can assign roles 
 and permissions to individual users or groups.  
 
----
-
 ## Exercises
 
 ### Exercise 1: Assign Global Permissions
@@ -73,8 +71,6 @@ Learn how to assign global permissions to users in SonarQube.
 3. Verify that the user or group has the correct permissions by attempting 
    to perform an action that requires the new permission. 
 
----
-
 ### Exercise 2: Assign Project Permissions
 
 **Objective**: 
@@ -87,8 +83,6 @@ Understand how to assign project-specific permissions.
    **Execute Analysis** to a user or group. 
 3. Verify that the user or group can perform the actions allowed by the 
    assigned permissions within the project. 
-
----
 
 ### Exercise 3: Review and Audit Permissions
 

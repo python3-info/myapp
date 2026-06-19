@@ -72,8 +72,6 @@ thresholds for metrics like:
 Custom quality gates can be tailored for different types of projects and 
 development standards. 
 
----
-
 ## Exercises
 
 ### Exercise 1: Review and Modify the Default Quality Gate
@@ -88,8 +86,6 @@ Learn how to review and adjust the default quality gate settings in SonarQube.
    changing the allowed number of bugs. 
 4. Apply the modified quality gate to a project.
 
----
-
 ### Exercise 2: Create and Assign a Custom Quality Gate
 
 **Objective**: 
@@ -102,8 +98,6 @@ Practice creating and assigning a custom quality gate to a project.
 3. Assign the custom quality gate to a project.
 4. Run an analysis on the project and ensure that it passes or fails based 
    on the custom gate conditions. 
-
----
 
 ### Exercise 3: Analyze Static Analysis Results and Improve Code Quality
 

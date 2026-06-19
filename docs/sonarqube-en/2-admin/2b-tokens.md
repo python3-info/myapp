@@ -55,8 +55,6 @@ it is important to treat tokens as sensitive information and store them
 securely. Never expose tokens in publicly accessible areas like GitHub 
 repositories or log files.   
 
----
-
 ## Exercises
 
 ### Exercise 1: Create a Personal Token
@@ -71,8 +69,6 @@ Learn how to create and manage a personal token in SonarQube.
 4. Use the token in a tool such as **SonarScanner** to authenticate and run 
    a project analysis. 
 
----
-
 ### Exercise 2: Use a Token in CI/CD Pipeline
 
 **Objective**: 
@@ -84,8 +80,6 @@ Integrate SonarQube analysis into a CI/CD pipeline using a token.
    for SonarQube analysis. 
 3. Trigger a build and verify that SonarQube analysis runs successfully 
    using the token. 
-
----
 
 ### Exercise 3: Revoke an Old Token
 

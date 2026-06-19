@@ -53,8 +53,6 @@ types of projects, including Java, C#, Python, JavaScript, and more.
 The scanner will analyze the project and send the results to the configured 
 SonarQube server. 
 
----
-
 ## Exercises
 
 ### Exercise 1: Install and Configure SonarScanner
@@ -70,8 +68,6 @@ Learn how to install and configure SonarScanner for a project.
 4. Run the SonarScanner using the appropriate command for your setup
    (e.g., `sonar-scanner` for CLI).
 
----
-
 ### Exercise 2: Run SonarScanner in CI/CD Pipeline
 
 **Objective**: 
@@ -83,8 +79,6 @@ Integrate SonarScanner into a CI/CD pipeline.
    configuration. 
 3. Trigger a build and verify that the project is analyzed and results are 
    sent to SonarQube. 
-
----
 
 ### Exercise 3: Troubleshoot and Adjust Configuration
 

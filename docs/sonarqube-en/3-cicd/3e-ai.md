@@ -49,8 +49,6 @@ learning to differentiate between actual issues and non-issues. By
 leveraging historical analysis and evolving code patterns, the AI system 
 can fine-tune its detection mechanisms and offer more accurate results.   
 
----
-
 ## Exercises
 
 ### Exercise 1: Explore AI-Powered Code Smell Detection
@@ -65,8 +63,6 @@ Get hands-on experience with AI-powered detection of code smells.
 3. Investigate how AI recommendations differ from traditional static 
    analysis results and make any suggested changes to the code.  
 
----
-
 ### Exercise 2: Experiment with AI-Based Refactoring Suggestions
 
 **Objective**: 
@@ -78,8 +74,6 @@ Learn how AI can suggest potential code refactoring opportunities.
 2. Review any AI-powered **refactoring** recommendations provided by SonarQube.
 3. Implement the recommended changes and re-run the analysis to verify 
    improvements in code quality. 
-
----
 
 ### Exercise 3: Compare AI Detection with Traditional Static Analysis
 

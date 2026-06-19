@@ -79,8 +79,6 @@ quality standards.
 - **Factors**: The rating considers issues like code smells, complexity, 
   and code duplication. 
 
----
-
 ## Exercises
 
 ### Exercise 1: Review the Project's Key Metrics
@@ -94,8 +92,6 @@ Navigate the Quality Metrics section and review the project's overall health.
    and **code smells**.
 3. Check the metrics for the project.
 
----
-
 ### Exercise 2: Investigate Duplications and Code Smells
 
 **Objective**: 
@@ -106,8 +102,6 @@ improvement.
 1. Go to the **Duplications** section and review the percentage of duplicated code.
 2. Navigate to the **Code Smells** section and filter for the most common issues.
 3. Discuss how code smells could be addressed. 
-
----
 
 ### Exercise 3: Analyze Security and Reliability Ratings
 

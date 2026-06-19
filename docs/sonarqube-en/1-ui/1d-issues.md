@@ -83,8 +83,6 @@ fixing them.
 Tags can be used to categorize issues, making it easier to group and filter 
 them. For example, tags could include "security", "refactoring", or "test". 
 
----
-
 ## Exercises
 
 ### Exercise 1: Explore the Issues Dashboard
@@ -97,8 +95,6 @@ Familiarize yourself with the issues dashboard and how issues are categorized.
 2. Filter issues by **severity** (Blocker, Critical, Major, etc.).
 3. Review a few issues and note their **type**, **severity**, and **status**.
 
----
-
 ### Exercise 2: Investigate and Prioritize Issues
 
 **Objective**: 
@@ -108,8 +104,6 @@ Learn how to prioritize issues based on severity and impact.
 1. Go to the **Issues** section and filter for **Blocker** issues.
 2. Review the issues and note their **location** and **type**.
 3. Discuss how to deal with the most critical issues.
-
----
 
 ### Exercise 3: Analyze Code Smells and Duplications
 

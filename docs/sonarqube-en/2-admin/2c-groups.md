@@ -54,8 +54,6 @@ SonarQube also offers audit logs to track changes related to group
 management. Administrators can monitor when users are added or removed from 
 groups and see any changes made to group roles or permissions.  
 
----
-
 ## Exercises
 
 ### Exercise 1: Create a Custom Group
@@ -69,8 +67,6 @@ Learn how to create and manage groups in SonarQube.
 3. Add several users to this group and assign the appropriate project 
    permissions (e.g., **Developer** role). 
 
----
-
 ### Exercise 2: Assign Roles to a Group
 
 **Objective**: 
@@ -83,8 +79,6 @@ Understand how to assign roles to a group.
    based on your use case. 
 4. Verify the roles are properly applied by reviewing group members' 
    permissions. 
-
----
 
 ### Exercise 3: Monitor Changes to Groups
 

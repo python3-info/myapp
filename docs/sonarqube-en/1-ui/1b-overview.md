@@ -50,8 +50,6 @@ test coverage exceeds a certain threshold.
 Displays recent changes in the project, such as code pushes, analysis 
 results, or the resolution of issues. 
 
----
-
 ## Exercises
 
 ### Exercise 1: Navigate the Project Overview Page
@@ -64,8 +62,6 @@ Get familiar with the layout and key information on the Project Overview page.
 2. Identify the **key metrics** (bugs, vulnerabilities, test coverage).
 3. Check if the project has passed or failed the **Quality Gate**.
 
----
-
 ### Exercise 2: Explore Issues in the Project
 
 **Objective**: 
@@ -75,8 +71,6 @@ Learn how to filter and explore issues in a project.
 1. Navigate to the **Issues** section.
 2. Filter issues by severity (Blocker, Critical, Major).
 3. Identify issues that need immediate attention.
-
----
 
 ### Exercise 3: Review Test Coverage
 

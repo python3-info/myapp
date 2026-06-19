@@ -65,8 +65,6 @@ SonarQube also provides audit logs that track user actions, such as login
 attempts, configuration changes, and permission modifications. These logs 
 help maintain security and accountability within the platform.   
 
----
-
 ## Exercises
 
 ## Exercise 1: Viewing and Managing User Profiles
@@ -85,8 +83,6 @@ Learn how to view and manage user profiles in SonarQube.
 4. Update the user's **email address** and **password**. 
 5. Save the changes.
 
----
-
 ## Exercise 2: Creating and Deleting Users
 
 **Objective:** 
@@ -96,8 +92,6 @@ Learn how to create and deactivate user accounts in SonarQube.
 1. Go to the **User Management** section in the SonarQube interface.
 2. Create new user "bob" with password "Abcdefghi!23" and name "Bob".
 3. Deactivate "bob" account deleting user.
-
----
 
 ## Exercise 3: Searching for Users and Filtering Results
 

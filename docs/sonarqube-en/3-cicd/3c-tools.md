@@ -58,8 +58,6 @@ the results in the SonarQube interface, under the **Issues** and
 **Coverage** tabs, and see insights provided by the external tools 
 alongside the native SonarQube analysis.   
 
----
-
 ## Exercises
 
 ### Exercise 1: Configure SonarQube to Import Pylint Results
@@ -74,8 +72,6 @@ Learn how to integrate **Pylint** results into SonarQube.
 3. Run SonarScanner to upload the analysis to SonarQube and verify that 
    **Pylint** issues appear in the SonarQube dashboard.  
 
----
-
 ### Exercise 2: Import Coverage Results into SonarQube
 
 **Objective**: 
@@ -88,8 +84,6 @@ Integrate **code coverage** results into SonarQube.
    coverage report.
 3. Run SonarScanner and check the **Coverage** tab in SonarQube to ensure 
    the code coverage metrics are displayed. 
-
----
 
 ### Exercise 3: Import Bandit Security Results
 

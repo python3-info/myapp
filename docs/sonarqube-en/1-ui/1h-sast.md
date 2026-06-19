@@ -59,8 +59,6 @@ that every commit and pull request can be automatically scanned for
 security vulnerabilities. This helps identify and fix security issues 
 continuously rather than waiting for periodic security audits.   
 
----
-
 ## Exercises
 
 ### Exercise 1: Review Security Vulnerabilities
@@ -73,8 +71,6 @@ Learn how to identify security vulnerabilities in the codebase using SonarQube.
 2. Filter and search for issues related to **security** (SQL Injection, XSS, etc.).
 3. Review and categorize the security issues by severity.
 
----
-
 ### Exercise 2: Analyze Security Hotspots
 
 **Objective**: 
@@ -84,8 +80,6 @@ Learn to identify and review **Security Hotspots** in the project.
 1. Go to the **Security Hotspots** section in the SonarQube dashboard.
 2. Identify code sections flagged as security hotspots.
 3. Investigate and mark whether they are genuine issues or require further action.
-
----
 
 ### Exercise 3: Customize Security Rules
 

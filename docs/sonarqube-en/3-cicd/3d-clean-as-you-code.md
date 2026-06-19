@@ -50,8 +50,6 @@ Rather than analyzing the entire codebase each time, SonarQube performs
 developers to focus on fixing only the newly introduced issues, avoiding 
 the need to recheck the entire codebase.
 
----
-
 ## Exercises
 
 ### Exercise 1: Set Up a Quality Gate for New Code
@@ -67,8 +65,6 @@ Learn how to configure and use quality gates to enforce clean code practices.
 4. Test the quality gate by committing new code with potential issues, then 
    check if the gate prevents the code from being merged.  
 
----
-
 ### Exercise 2: Integrate SonarQube with a CI/CD Pipeline
 
 **Objective**: 
@@ -81,8 +77,6 @@ Practice integrating SonarQube with a CI/CD pipeline to check code quality on ea
    issues in real-time. 
 3. Commit new code to see if the pipeline catches any issues and blocks the 
    merge if the quality gate fails. 
-
----
 
 ### Exercise 3: Review and Fix Issues from SonarQube Feedback
 

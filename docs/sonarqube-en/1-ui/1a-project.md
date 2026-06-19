@@ -68,8 +68,6 @@ analyze individual applications, monitor key quality metrics, enforce
 quality gates, and prioritize issues to maintain healthy, secure, and 
 maintainable code.    
 
----
-
 ## Exercises
 
 ### Exercise 1: Navigating the Project List
@@ -88,8 +86,6 @@ Familiarize yourself with the main dashboard and its features.
    - Last Analysis Date
    - Quality Gate Status
 
----
-
 ### Exercise 2: Understanding Quality Gate Status
 
 **Objective:** 
@@ -101,8 +97,6 @@ Learn to interpret the quality gate status for projects.
 3. Filter the projects to show only the ones that **failed** the quality gate.
 4. Take note of any patterns in projects that are failing the quality gate. 
    Is it related to bugs, vulnerabilities, or code smells?
-
----
 
 ### Exercise 3: Exploring Metrics Overview
 
